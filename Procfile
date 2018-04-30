@@ -1,1 +1,1 @@
-web: gunicorn weather_by_city:app
+web: gunicorn -b :$PORT weather_by_city:app
