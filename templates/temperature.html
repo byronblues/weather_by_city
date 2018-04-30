@@ -1,0 +1,7 @@
+<html>
+    <head><title>Current Temperature</title></head>
+<body>
+    <h1> The current temperature in {{ city }} is : {{ temp }} degrees Fahrenheit. <img src="{{url_for('static', filename='icon.png')}}" /></h1> 
+    <img src="data:image/png;base64, {{ plot_url }}">
+    </body>
+</html>
