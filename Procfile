@@ -1,1 +1,1 @@
-web: gunicorn -b :$PORT weather_by_city:app
+web: gunicorn --bind 0.0.0.0:$PORT weather_by_city:app
